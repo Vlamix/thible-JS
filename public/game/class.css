@@ -1,0 +1,63 @@
+.body{
+    margin: 0;
+}
+
+#root{
+    height: 100vh;
+    width: 100vw;
+}
+
+#bgImg{
+    width: 100%;
+    position: absolute;
+    top: 67%;
+}
+
+#stone{
+    position: absolute;
+    height: 28%;
+    width: auto;
+    top:62.5%;
+    left: 17%;
+}
+
+.glasses{
+    display: flex;
+    flex-direction: row;
+}
+
+.glasses img{
+    position: absolute;
+    height: 50%;
+    width: auto;
+    top:12%;
+}
+
+.buttons{
+    height: 8%;
+    font-size: 25px;
+}
+
+#start{
+    height: 90%;
+    font-size: 25px;
+}
+
+.game{
+    height: 92%;
+}
+
+#glass1{
+    left: 16%;
+    transition: top 2.2s;
+}
+
+#glass2{
+    left: 43%;
+    transition: left, top 1.6s;
+}
+
+#glass3{
+    left: 70%;
+    transition: top 1s;
+}
