@@ -1,6 +1,6 @@
 const btnStart = document.getElementById('start')
 const ball = document.getElementById('stone')
-let round = 0
+let round = 1
 const arr = [
    document.getElementById('glass1'),
    document.getElementById('glass2'),
